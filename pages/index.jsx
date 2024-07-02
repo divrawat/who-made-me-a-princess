@@ -162,13 +162,13 @@ export default function Home() {
 
 
 
-        <div className="max-w-[1100px] mx-auto p-4">
-          <h1 className="text-3xl font-bold mb-6 text-center">Read More Mangas</h1>
-          <div className="flex flex-wrap gap-6 justify-center">
+        <div className="max-w-[1250px] mx-auto p-4">
+          <h1 className="text-3xl font-bold mb-6 text-center">Read More Mahwas</h1>
+          <div className="flex flex-wrap gap-12 justify-center">
             {filteredMangaLinks.map((item, index) => (
               <div key={index} className="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden w-80">
                 <a href={item.link} className="hover:underline">
-                  <img src={item.imageUrl} alt={item.title} className="w-full h-48 object-cover" />
+                  <img src={item.imageUrl} alt={item.title} className="w-full h-[350px] object-cover" />
                   <div className="p-4">
                     <h2 className="font-bold mb-2 text-center">{item.title}</h2>
                   </div>

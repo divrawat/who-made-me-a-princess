@@ -75,84 +75,100 @@ export const FooterLinks = [
 
 export const RelatedMangaLinks = [
     {
-        imageUrl: `${DOMAIN}/related/frieran.webp`,
-        title: 'Frieran Manga',
-        link: 'https://www.frierenmanga.in.net',
+        imageUrl: `${DOMAIN}/related/whomademeaprincess.webp`,
+        title: 'Who Made Me A Princess',
+        link: 'https://www.whomademeaprincess.in.net',
     },
     {
-        imageUrl: `${DOMAIN}/related/one-punch-man.webp`,
-        title: 'One Punch Man Manga',
-        link: 'https://www.onepunchmanmanga.in.net',
+        imageUrl: `${DOMAIN}/related/warriorhighschool.webp`,
+        title: 'Warrior High School',
+        link: 'https://www.warriorhighschool.in.net',
     },
     {
-        imageUrl: `${DOMAIN}/related/jujutsu-kaisen.webp`,
-        title: 'Jujutsu Kaisen Manga',
-        link: 'https://www.jujutsukaisenmanga.in.net',
+        imageUrl: `${DOMAIN}/related/thislifestartsasachildactor.webp`,
+        title: 'This Life Starts As a Child Actor',
+        link: 'https://www.thislifestartsasachildactor.in.net',
     },
     {
-        imageUrl: `${DOMAIN}/related/chainsaw-man.webp`,
-        title: 'Chainsaw Man Manga',
-        link: 'https://www.chainsawmanmanga.in.net',
+        imageUrl: `${DOMAIN}/related/thevillaninsfavouriteisme.webp`,
+        title: 'The Villanins Favourite is Me',
+        link: 'https://www.thevillaninsfavouriteisme.in.net',
     },
     {
-        imageUrl: `${DOMAIN}/related/mushoku-tensei.webp`,
-        title: 'Mushoku Tensei Manga',
-        link: 'https://www.mushokutenseimanga.in.net',
+        imageUrl: `${DOMAIN}/related/thegreatestestatedeveloper.webp`,
+        title: 'The Greatest Estate Developer',
+        link: 'https://www.thegreatestestatedeveloper.in.net',
     },
     {
-        imageUrl: `${DOMAIN}/related/one-piece.webp`,
-        title: 'One Piece Manga',
-        link: 'https://www.onepiecemanga.in.net',
+        imageUrl: `${DOMAIN}/related/thedivorceesdessertcafe.webp`,
+        title: 'The Divorcees Dessert Cafe',
+        link: 'https://www.thedivorceesdessertcafe.in.net',
     },
     {
-        imageUrl: `${DOMAIN}/related/jinx.webp`,
-        title: 'Jinx Manga',
-        link: 'https://www.jinxmanga.in.net',
+        imageUrl: `${DOMAIN}/related/thebeginningaftertheend.webp`,
+        title: 'The Beginning After The End',
+        link: 'https://www.thebeginningaftertheend.in.net',
     },
     {
-        imageUrl: `${DOMAIN}/related/boruto.webp`,
-        title: 'Boruto Manga',
-        link: 'https://www.borutomanga.in.net',
+        imageUrl: `${DOMAIN}/related/talentedbabysquirrel.webp`,
+        title: 'Talented Baby Squirrel',
+        link: 'https://www.talentedbabysquirrel.in.net',
     },
     {
-        imageUrl: `${DOMAIN}/related/demon-slayer.webp`,
-        title: 'Demon Slayer Manga',
-        link: 'https://www.demonslayermanga.in.net',
-    },
-
-    /*
-    {
-        imageUrl: `${DOMAIN}/related/my-dress-up-darling.webp`,
-        title: 'My Dress Up Darling Manga',
-        link: 'https://www.mydressupdarlingmanga.in.net',
+        imageUrl: `${DOMAIN}/related/solomaxlevelnewbie.webp`,
+        title: 'Solo Max Level Newbie',
+        link: 'https://www.solomaxlevelnewbie.in.net',
     },
     {
-        imageUrl: `${DOMAIN}/related/blue-lock.webp`,
-        title: 'Blue Lock Manga',
-        link: 'https://www.bluelockmanga.in.net',
+        imageUrl: `${DOMAIN}/related/secondliferanker.webp`,
+        title: 'Second Life Ranker',
+        link: 'https://www.secondliferanker.in.net',
     },
     {
-        imageUrl: `${DOMAIN}/related/solo-leveling.webp`,
-        title: 'Solo Leveling Manga',
-        link: 'https://www.sololevelingimanga.in.net',
+        imageUrl: `${DOMAIN}/related/operationtruelove.webp`,
+        title: 'Operation True Love',
+        link: 'https://www.operationtruelove.in.net',
     },
     {
-        imageUrl: `${DOMAIN}/related/my-hero-academia.webp`,
-        title: 'My Hero Academia Manga',
-        link: 'https://www.myheroacademiamanga.in.net',
+        imageUrl: `${DOMAIN}/related/omniscientreadersviewpoint.webp`,
+        title: 'Omniscient Readers Viewpoint',
+        link: 'https://www.omniscientreadersviewpoint.in.net',
     },
     {
-        imageUrl: `${DOMAIN}/related/vinland-saga.webp`,
-        title: 'Vinland Saga Manga',
-        link: 'https://www.vinlandsagamanga.in.net',
+        imageUrl: `${DOMAIN}/related/myschoollifepretendingtobeaworthlessperson.webp`,
+        title: 'My School Life Pretending to be a Worthless Person',
+        link: 'https://www.myschoollifepretendingtobeaworthlessperson.in.net',
     },
     {
-        imageUrl: `${DOMAIN}/related/black-clover.webp`,
-        title: 'Black Clover Manga',
-        link: 'https://www.blackclovermanga.in.net',
+        imageUrl: `${DOMAIN}/related/kallithechampion.webp`,
+        title: 'Kalli The Champion',
+        link: 'https://www.kallithechampion.in.net',
     },
-*/
-
+    {
+        imageUrl: `${DOMAIN}/related/ishallmasterthisfamily.webp`,
+        title: 'I Shall Master This Family',
+        link: 'https://www.ishallmasterthisfamily.in.net',
+    },
+    {
+        imageUrl: `${DOMAIN}/related/iobtainedamythicitem.webp`,
+        title: 'I Obtained A Mythic Item',
+        link: 'https://www.iobtainedamythicitem.in.net',
+    },
+    {
+        imageUrl: `${DOMAIN}/related/goldenlightgratiathechildlovedbygod.webp`,
+        title: 'Golden Light Gratia The Child Loved By God',
+        link: 'https://www.goldenlightgratiathechildlovedbygod.in.net',
+    },
+    {
+        imageUrl: `${DOMAIN}/related/disastrouscatastrophicnecromancer.webp`,
+        title: 'Disastrous Catastrophic Necromancer',
+        link: 'https://www.disastrouscatastrophicnecromancer.in.net',
+    },
+    {
+        imageUrl: `${DOMAIN}/related/adoptedbyamurderousdukefamily.webp`,
+        title: 'Adopted by a Murderous Duke Family',
+        link: 'https://www.adoptedbyamurderousdukefamily.in.net',
+    },
 ];
 
 
