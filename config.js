@@ -1,6 +1,6 @@
 
-export const DOMAIN = 'http://localhost:3000';
-// export const DOMAIN = 'https://www.whomademeaprincess.in.net';
+// export const DOMAIN = 'http://localhost:3000';
+export const DOMAIN = 'https://www.whomademeaprincess.in.net';
 
 export const MANGA_DESCRIPTION = `<a href="${DOMAIN}"><u>Who Made Me a Princess</u></a> follows Athanasia, a young girl who reincarnates as a princess in a tragic romance novel where she is fated to be executed by her father, the emperor. Determined to avoid her doomed fate, Athanasia uses her knowledge of the novel to navigate palace politics, win her father's affection, and change her destiny. The story blends elements of fantasy, drama, and romance as Athanasia strives to rewrite her fate and secure her place in the royal family.`
 

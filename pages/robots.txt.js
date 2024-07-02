@@ -1,5 +1,8 @@
 import { DOMAIN } from "../config";
 
+export const runtime = 'experimental-edge';
+
+
 const generateRobotsTxt = () => {
     let robotsTxtContent = `User-agent: *
 Disallow: /images/
