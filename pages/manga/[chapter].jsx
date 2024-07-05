@@ -28,7 +28,7 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
     const nextChapter = chapterIndex < totalChapters - 1 ? chaptersData[chapterIndex + 1].chapterNumber : null;
 
 
-    const DESCRIPTION = `Enjoy reading ${MANGA_NAME} chapter ${chapterNumber} online at ${DOMAIN}. Athanasia, a modern woman reincarnated as a princess in a tragic novel. Destined to be executed by her cold father, Emperor Claude, she uses her knowledge of the story to change her fate. By winning her father's affection and navigating palace politics, Athanasia strives to survive and find happiness.`
+    const DESCRIPTION = `Read ${MANGA_NAME} chapter ${chapterNumber} online at ${DOMAIN}. Athanasia, a modern woman reincarnated as a princess in a tragic novel. Destined to be executed by her cold father, Emperor Claude, she uses her knowledge of the story to change her fate. By winning her father's affection and navigating palace politics, Athanasia strives to survive and find happiness.`
     const URL = params.chapter;
 
 
