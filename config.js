@@ -30,7 +30,7 @@ export const logo = <img src={`${LOGO_URL}`} alt="Logo" className="h-[75px] w-[1
 export const APP_NAME = 'Who Made Me a Princess';
 export const NavbarName = "Who Made Me a Princess";
 
-export const APP_DESCRIPTION = `Read ${MANGA_NAME} manga online at ${DOMAIN}. The story follows Athanasia, a young girl who reincarnates as a princess in a tragic romance novel where she is fated to be executed by her father, the emperor. Determined to avoid her doomed fate, Athanasia uses her knowledge of the novel to navigate palace politics, win her father's affection, and change her destiny. The story blends elements of fantasy, drama, and romance as Athanasia strives to rewrite her fate and secure her place in the royal family.`;
+export const APP_DESCRIPTION = `Read ${MANGA_NAME} manga online. The story follows Athanasia, a young girl who reincarnates as a princess in a tragic romance novel where she is fated to be executed by her father, the emperor. Determined to avoid her doomed fate, Athanasia uses her knowledge of the novel to navigate palace politics, win her father's affection, and change her destiny. The story blends elements of fantasy, drama, and romance as Athanasia strives to rewrite her fate and secure her place in the royal family.`;
 
 export const DISQUS_SHORTNAME = "my-cms-7";
 
