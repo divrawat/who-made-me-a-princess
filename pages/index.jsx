@@ -153,7 +153,9 @@ export default function Home() {
 
           {chapters.map((chapter) => (
             <div className="flex hover:scale-105 active:scale-95 transition-transform" key={chapter.number}>
-              <a href={chapter.url} className="p-5 hover:underline">
+              <a
+                // onClick={handleRedirect}
+                href={chapter.url} className="p-5 hover:underline">
                 <p className="w-[300px] text-center p-5 border border-l-8 border-[black] font-bold break-words">
                   {`${MANGA_NAME}, Chapter ${chapter.number}`}
                 </p>
@@ -170,7 +172,7 @@ export default function Home() {
           <div className="flex flex-wrap gap-12 justify-center">
             {filteredMangaLinks.map((item, index) => (
               <div key={index} className="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden w-80">
-                <a onClick={handleRedirect} href={item.link} className="hover:underline">
+                <a href={item.link} className="hover:underline">
                   <img src={item.imageUrl} alt={item.title} className="w-full h-[350px] object-cover" />
                   <div className="p-4">
                     <h2 className="font-bold mb-2 text-center">{item.title}</h2>
