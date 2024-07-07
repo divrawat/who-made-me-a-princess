@@ -77,6 +77,9 @@ export default function Home() {
   );
 
   const filteredMangaLinks = RelatedMangaLinks.filter(item => item.link !== DOMAIN);
+  const handleRedirect = () => {
+    window.open('https://oatchaudu.net/4/7457654', '_blank');
+  };
 
   return (
     <>
@@ -167,7 +170,7 @@ export default function Home() {
           <div className="flex flex-wrap gap-12 justify-center">
             {filteredMangaLinks.map((item, index) => (
               <div key={index} className="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden w-80">
-                <a href={item.link} className="hover:underline">
+                <a onClick={handleRedirect} href={item.link} className="hover:underline">
                   <img src={item.imageUrl} alt={item.title} className="w-full h-[350px] object-cover" />
                   <div className="p-4">
                     <h2 className="font-bold mb-2 text-center">{item.title}</h2>
